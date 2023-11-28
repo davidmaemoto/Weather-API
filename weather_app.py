@@ -15,6 +15,6 @@ if response.status_code == 200:
     print(f'Temperature in K: {temp} K')
     print(f'Temperature in C: {temp-273.15} C')
     print(f'Temperature in F: {(temp-273.15)*9/5 +32} F')
-    print(f'Weather description: {desc}')
+    print(f'Current conditions: {desc}')
 else:
     print('Error fetching weather data')
